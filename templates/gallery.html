@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+
+<!-- Mirrored from html.modernwebtemplates.com/gogreen/gallery-carousel.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Jul 2024 10:08:07 GMT -->
+<head>
+	<title>GoGreen</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	<link rel="stylesheet" href="../static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../static/css/animations.css">
+	<link rel="stylesheet" href="../static/css/fonts.css">
+	<link rel="stylesheet" href="../static/css/main.css" class="color-switcher-link">
+	<script src="../static/js/vendor/modernizr-2.6.2.min.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="../static/js/vendor/html5shiv.min.js"></script>
+		<script src="../static/js/vendor/respond.min.js"></script>
+		<script src="../static/js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">
+				<i class="rt-icon2-cross2"></i>
+			</span>
+		</button>
+		<div class="widget widget_search">
+			<form method="get" class="searchform search-form form-inline" action="https://html.modernwebtemplates.com/gogreen/">
+				<div class="form-group">
+					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
+				</div>
+				<button type="submit" class="theme_button">Search</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- Unyson messages modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+		<div class="fw-messages-wrap ls with_padding">
+			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+			<!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
+
+		</div>
+	</div>
+	<!-- eof .modal -->
+
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+
+			<!-- template sections -->
+
+			<section class="page_topline cs two_color section_padding_top_5 section_padding_bottom_5 table_section">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-6 text-center text-sm-left">
+							<p class="divided-content">
+					<span class="medium black">
+						Welcome to Electronics Recycling
+					</span>
+					<a href="#">How to Find Us</a>
+					<a href="#">Give Feedback</a>
+				</p>
+						</div>
+						<div class="col-sm-6 text-center text-sm-right">
+
+							<div class="widget widget_search">
+								<form method="get" class="searchform form-inline" action="https://html.modernwebtemplates.com/gogreen/">
+									<div class="form-group-wrap">
+										<div class="form-group margin_0">
+											<label class="sr-only" for="topline-search">Search for:</label>
+											<input id="topline-search" type="text" value="" name="search" class="form-control" placeholder="Search Keyword">
+										</div>
+										<button type="submit" class="theme_button">Search</button>
+									</div>
+								</form>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<header class="page_header header_white toggler_xs_right section_padding_20">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-12 display_table">
+							<div class="header_left_logo display_table_cell">
+								<a href="index.html" class="logo top_logo">
+									<img src="../static/images/logo.png" alt="">
+									<span class="logo_text">
+										<span class="big">GoGreen</span>
+										<span class="small-text">Recycling</span>
+									</span>
+								</a>
+							</div>
+
+							<div class="header_mainmenu display_table_cell text-center">
+								<!-- main nav start -->
+								<nav class="mainmenu_wrapper">
+									<ul class="mainmenu nav sf-menu">
+										<li class="active">
+											<a href="/">Home</a>
+											
+										</li>
+
+										<li>
+											<a href="/about">Pages</a>
+											
+										</li>
+										<!-- eof pages -->
+
+										<li>
+											<a href="/a">features</a>
+											
+											<!-- eof mega menu -->
+										</li>
+										<!-- eof features -->
+
+
+										<!-- gallery -->
+										<li>
+											<a href="/gallery">Gallery</a>
+											
+										</li>
+										<!-- eof Gallery -->
+
+										<!-- blog -->
+										<li>
+											<a href="/blog">Blog</a>
+											
+										</li>
+										<!-- eof blog -->
+
+										<!-- contacts -->
+										
+										<!-- eof contacts -->
+									</ul>
+								</nav>
+								<!-- eof main nav -->
+								<!-- header toggler -->
+								<span class="toggle_menu">
+									<span></span>
+								</span>
+							</div>
+
+							<div class="header_right_buttons display_table_cell text-right hidden-xs">
+								<div class="darklinks">
+									<a href="#" class="social-icon border-icon rounded-icon soc-facebook"></a>
+									<a href="#" class="social-icon border-icon rounded-icon soc-twitter"></a>
+									<a href="#" class="social-icon border-icon rounded-icon soc-google"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<section class="page_breadcrumbs ds parallax section_padding_top_65 section_padding_bottom_65">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h2 class="highlight">Gallery Carousel 1 column</h2>
+							<ol class="breadcrumb darklinks">
+								<li>
+									<a href="index.html">
+							Home
+						</a>
+								</li>
+								<li>
+									<a href="#">Gallery</a>
+								</li>
+								<li class="active">Gallery Carousel 1 column</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="ls section_padding_top_100 section_padding_bottom_75">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-10 col-md-push-1">
+							<div id="gallery-owl-carousel" class="owl-carousel dots-center" data-dots="true" data-items="1" data-responsive-lg="1" data-responsive-md="1" data-responsive-sm="1" data-responsive-xs="1">
+
+								<article class="vertical-item content-padding post format-standard with_background rounded">
+
+									<div class="item-media">
+
+										<img src="../static/images/gallery/01.jpg" alt="">
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="../static/images/gallery/01.jpg"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+									Morbi euismod
+								</a>
+											</h4>
+										</header>
+										<p>
+							Vivamus enim justo, suscipit laoreet odio id, interdum egestas sapien. Phasellus ultricies felis lectus, sed condimentum libero condimentum eget.
+						</p>
+									</div>
+
+								</article>
+								<article class="vertical-item content-padding post format-standard with_background rounded">
+
+									<div class="item-media">
+
+										<img src="../static/images/gallery/02.jpg" alt="">
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="../static/images/gallery/02.jpg"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+									Vestibulum libero
+								</a>
+											</h4>
+										</header>
+										<p>
+							Vivamus enim justo, suscipit laoreet odio id, interdum egestas sapien. Phasellus ultricies felis lectus, sed condimentum libero condimentum eget.
+						</p>
+									</div>
+
+								</article>
+								<article class="vertical-item content-padding post format-standard with_background rounded">
+
+									<div class="item-media">
+
+										<img src="../static/images/gallery/03.jpg" alt="">
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="../static/images/gallery/03.jpg"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+									Pellentesque commodo
+								</a>
+											</h4>
+										</header>
+										<p>
+							Vivamus enim justo, suscipit laoreet odio id, interdum egestas sapien. Phasellus ultricies felis lectus, sed condimentum libero condimentum eget.
+						</p>
+									</div>
+
+								</article>
+								<article class="vertical-item content-padding post format-standard with_background rounded">
+
+									<div class="item-media">
+
+										<img src="../static/images/gallery/04.jpg" alt="">
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="../static/images/gallery/04.jpg"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+									Lorem ipsum
+								</a>
+											</h4>
+										</header>
+										<p>
+							Vivamus enim justo, suscipit laoreet odio id, interdum egestas sapien. Phasellus ultricies felis lectus, sed condimentum libero condimentum eget.
+						</p>
+									</div>
+
+								</article>
+								<article class="vertical-item content-padding post format-standard with_background rounded">
+
+									<div class="item-media">
+
+										<img src="../static/images/gallery/05.jpg" alt="">
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="../static/images/gallery/05.jpg"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+									Sarmiento museum
+								</a>
+											</h4>
+										</header>
+										<p>
+							Vivamus enim justo, suscipit laoreet odio id, interdum egestas sapien. Phasellus ultricies felis lectus, sed condimentum libero condimentum eget.
+						</p>
+									</div>
+
+								</article>
+								<article class="vertical-item content-padding post format-standard with_background rounded">
+
+									<div class="item-media">
+
+										<img src="../static/images/gallery/06.jpg" alt="">
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="../static/images/gallery/06.jpg"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+									Proin imperdiet
+								</a>
+											</h4>
+										</header>
+										<p>
+							Vivamus enim justo, suscipit laoreet odio id, interdum egestas sapien. Phasellus ultricies felis lectus, sed condimentum libero condimentum eget.
+						</p>
+									</div>
+
+								</article>
+								<article class="vertical-item content-padding post format-standard with_background rounded">
+
+									<div class="item-media">
+
+										<img src="../static/images/gallery/07.jpg" alt="">
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="../static/images/gallery/07.jpg"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+									Aenean varius
+								</a>
+											</h4>
+										</header>
+										<p>
+							Vivamus enim justo, suscipit laoreet odio id, interdum egestas sapien. Phasellus ultricies felis lectus, sed condimentum libero condimentum eget.
+						</p>
+									</div>
+
+								</article>
+								<article class="vertical-item content-padding post format-standard with_background rounded">
+
+									<div class="item-media">
+
+										<img src="../static/images/gallery/08.jpg" alt="">
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="../static/images/gallery/08.jpg"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+									Praesent eleifend
+								</a>
+											</h4>
+										</header>
+										<p>
+							Vivamus enim justo, suscipit laoreet odio id, interdum egestas sapien. Phasellus ultricies felis lectus, sed condimentum libero condimentum eget.
+						</p>
+									</div>
+
+								</article>
+								<article class="vertical-item content-padding post format-standard with_background rounded">
+
+									<div class="item-media">
+
+										<img src="../static/images/gallery/09.jpg" alt="">
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="../static/images/gallery/09.jpg"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+									Phasellus volutpat
+								</a>
+											</h4>
+										</header>
+										<p>
+							Vivamus enim justo, suscipit laoreet odio id, interdum egestas sapien. Phasellus ultricies felis lectus, sed condimentum libero condimentum eget.
+						</p>
+									</div>
+
+								</article>
+								<article class="vertical-item content-padding post format-standard with_background rounded">
+
+									<div class="item-media">
+
+										<img src="../static/images/gallery/10.jpg" alt="">
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="../static/images/gallery/10.jpg"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+									Fusce a vestibulum 
+								</a>
+											</h4>
+										</header>
+										<p>
+							Vivamus enim justo, suscipit laoreet odio id, interdum egestas sapien. Phasellus ultricies felis lectus, sed condimentum libero condimentum eget.
+						</p>
+									</div>
+
+								</article>
+								<article class="vertical-item content-padding post format-standard with_background rounded">
+
+									<div class="item-media">
+
+										<img src="../static/images/gallery/11.jpg" alt="">
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="../static/images/gallery/11.jpg"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+									Vivamus suscipit
+								</a>
+											</h4>
+										</header>
+										<p>
+							Vivamus enim justo, suscipit laoreet odio id, interdum egestas sapien. Phasellus ultricies felis lectus, sed condimentum libero condimentum eget.
+						</p>
+									</div>
+
+								</article>
+								<article class="vertical-item content-padding post format-standard with_background rounded">
+
+									<div class="item-media">
+
+										<img src="../static/images/gallery/12.jpg" alt="">
+
+										<div class="media-links">
+											<div class="links-wrap">
+												<a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="../static/images/gallery/12.jpg"></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-content">
+										<header class="entry-header">
+											<h4 class="entry-title">
+												<a href="gallery-single.html" rel="bookmark">
+									Proin congue
+								</a>
+											</h4>
+										</header>
+										<p>
+							Vivamus enim justo, suscipit laoreet odio id, interdum egestas sapien. Phasellus ultricies felis lectus, sed condimentum libero condimentum eget.
+						</p>
+									</div>
+
+								</article>
+
+
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</section>
+
+			<footer class="page_footer ds section_padding_top_100 section_padding_bottom_65 columns_padding_25">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-4 col-sm-12 text-center">
+							<div class="widget">
+								<a href="index.html" class="logo bg_logo bottommargin_25">
+									<img src="../static/images/logo.png" alt="">
+									<span class="logo_text">
+										<span class="big">GoGreen</span>
+										<span class="small-text">Recycling</span>
+									</span>
+								</a>
+								<p>
+						Family-owned company from San Diego proudly serving individuals and businesses in Southern California.
+					</p>
+								<div class="line-height-thin">
+									<div class="media small-teaser inline-block margin_0">
+										<div class="media-left media-middle">
+											<i class="fa fa-map-marker highlight2" aria-hidden="true"></i>
+										</div>
+										<div class="media-body media-middle grey">
+											140 Horizon Circle, San Diego, CA
+										</div>
+									</div>
+									<br>
+									<div class="media small-teaser inline-block margin_0">
+										<div class="media-left media-middle">
+											<i class="fa fa-phone highlight2" aria-hidden="true"></i>
+										</div>
+										<div class="media-body media-middle grey">
+											01 123 456 789
+										</div>
+									</div>
+									<br>
+									<div class="media small-teaser inline-block margin_0">
+										<div class="media-left media-middle">
+											<i class="fa fa-map-marker highlight2" aria-hidden="true"></i>
+										</div>
+										<div class="media-body media-middle highlightlinks">
+											<a href="#"><span class="__cf_email__" data-cfemail="e2858d859087878ca2919792928d9096cc818d8f">[email&#160;protected]</span></a>
+										</div>
+									</div>
+								</div>
+
+								<div class="darklinks topmargin_20">
+									<a href="#" class="social-icon border-icon rounded-icon soc-facebook"></a>
+									<a href="#" class="social-icon border-icon rounded-icon soc-twitter"></a>
+									<a href="#" class="social-icon border-icon rounded-icon soc-google"></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4 col-sm-6 text-center">
+							<div class="widget widget_contact topmargin_10">
+								<h3>Contact Form</h3>
+								<form class="contact-form topmargin_45" method="post" action="https://html.modernwebtemplates.com/gogreen/">
+									<p class="contact-form-name">
+							<label for="footer-name">Name <span class="required">*</span></label>
+							<input type="text" aria-required="true" size="30" value="" name="name" id="footer-name" class="form-control text-center" placeholder="Full Name">
+						</p>
+									<p class="contact-form-email">
+							<label for="footer-email">Email <span class="required">*</span></label>
+							<input type="email" aria-required="true" size="30" value="" name="email" id="footer-email" class="form-control text-center" placeholder="Email Address">
+						</p>
+									<p class="contact-form-message">
+							<label for="footer-message">Message</label>
+							<textarea aria-required="true" rows="3" cols="45" name="message" id="footer-message" class="form-control text-center" placeholder="Message"></textarea>
+						</p>
+									<p class="footer_contact-form-submit topmargin_30">
+							<button type="submit" id="footer_contact_form_submit" name="contact_submit" class="theme_button color1 wide_button">Send Message</button>
+						</p>
+								</form>
+							</div>
+						</div>
+
+						<div class="col-md-4 col-sm-6 text-center">
+
+							<div class="widget widget_recent_entries topmargin_10">
+
+								<h3 class="widget-title">Recent News</h3>
+								<ul class="greylinks">
+									<li>
+										<p class="margin_0">
+								<a href="blog-single-right.html">
+									At vero eos et accusam et justo duo dolores et ea rebum clita kasd
+								</a>
+							</p>
+										<span class="entry-date highlight">
+											<time class="entry-date" datetime="2017-03-13T08:50:40+00:00">
+												March 9, 2017
+											</time>
+										</span>
+									</li>
+									<li>
+										<p class="margin_0">
+								<a href="blog-single-right.html">
+									Gubergren, no sea takimata sanctus est lorem ipsum dolor sit amet
+								</a>
+							</p>
+										<span class="entry-date highlight">
+											<time class="entry-date" datetime="2017-03-13T08:50:40+00:00">
+												March 9, 2017
+											</time>
+										</span>
+									</li>
+									<li>
+										<p class="margin_0">
+								<a href="blog-single-right.html">
+									Lorem ipsum dolor sit amet, consetetur
+								</a>
+							</p>
+										<span class="entry-date highlight">
+											<time class="entry-date" datetime="2017-03-13T08:50:40+00:00">
+												March 9, 2017
+											</time>
+										</span>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</footer>
+
+			<section class="ls page_copyright section_padding_15">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<p class="small-text small-spacing grey">&copy; Copyright 2017 All Rights Reserved</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+		<!-- eof #box_wrapper -->
+	</div>
+	<!-- eof #canvas -->
+
+	<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../static/js/compressed.js"></script>
+	<script src="../static/js/main.js"></script>
+	<script src="../static/js/switcher.js"></script>
+
+	<!-- Google Map Script -->
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0pr5xCHpaTGv12l73IExOHDJisBP2FK4"></script>
+</body>
+
+
+<!-- Mirrored from html.modernwebtemplates.com/gogreen/gallery-carousel.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Jul 2024 10:08:07 GMT -->
+</html>
