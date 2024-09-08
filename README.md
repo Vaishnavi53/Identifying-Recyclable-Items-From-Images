@@ -15,10 +15,13 @@ This project aims to classify waste images as **recyclable** or **non-recyclable
 
 ## How to Run
 1. Clone the repository:
+   ```bash
    git clone https://github.com/Vaishnavi53/Identifying-Recyclable-Items-From-Images
 2. Install dependencies:
+   ```bash
    pip install -r requirements.txt
 3. Run the app :
+   ```bash
    python app.py
 Now upload images through the web interface to classify waste.
    
