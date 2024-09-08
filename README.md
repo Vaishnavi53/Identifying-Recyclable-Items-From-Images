@@ -1,4 +1,4 @@
-# Identifying Recyclable Items from Waste using Deep Learning
+# Waste Classification System
 
 This project aims to classify waste images as **recyclable** or **non-recyclable** using deep learning techniques, specifically leveraging the **ResNet50** model with **transfer learning**.
 
@@ -23,5 +23,5 @@ This project aims to classify waste images as **recyclable** or **non-recyclable
 3. Run the app :
    ```bash
    python app.py
-Now upload images through the web interface to classify waste.
+Now upload images through the web interface to classify waste as recyclable or non-recyclable.
    
